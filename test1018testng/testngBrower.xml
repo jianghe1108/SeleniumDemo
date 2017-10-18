@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="s1"  parallel="tests" verbose="1">
+
+	<test name="t1" >
+	<parameter name="browser" value="ff"></parameter>
+		<classes>
+			<class name="com.edu.test1018testng.ChromeDemo">
+			</class>
+		</classes>
+	</test>
+	<test name="t2" >
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.edu.test1018testng.ChromeDemo">
+			</class>
+		</classes>
+	</test>
+
+	
+</suite>

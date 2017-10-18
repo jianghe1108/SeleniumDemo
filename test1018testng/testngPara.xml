@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" >
+<parameter name="browser" value="ff"></parameter>
+<parameter name="url" value="https://www.baidu.com/"></parameter>
+	<test name="t1" >
+		<classes>
+			<class name="com.edu.test1018testng.DadaProviderDemo" />
+		</classes>
+	</test>
+</suite>

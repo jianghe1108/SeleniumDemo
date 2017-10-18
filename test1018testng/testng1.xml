@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1">
+	<test name="t1" >
+		<groups>
+			<run>
+				<include name="animal"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.edu.test1018testng.Demo2" />
+			<class name="com.edu.test1018testng.Demo3" />
+		</classes>
+
+
+	</test>
+</suite>
