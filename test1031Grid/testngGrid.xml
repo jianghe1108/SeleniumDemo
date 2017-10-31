@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testuite" parallel="tests" thread-count="2">
+
+	<test name="node1">
+		<parameter name="nodeUrl" value="http://10.7.90.212:6655/wd/hub" />
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.edu.grid.testGrid2" />
+		</classes>
+	</test>
+
+	<test name="node2">
+		<parameter name="nodeUrl" value="http://10.7.90.212:6655/wd/hub" />
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.edu.grid.testGrid2" />
+		</classes>
+	</test>
+
+
+  <test name="node3">
+		<parameter name="nodeUrl" value="localhost" />
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.edu.grid.testGrid2" />
+		</classes>
+	</test>
+</suite>
